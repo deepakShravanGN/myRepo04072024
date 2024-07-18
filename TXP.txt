@@ -1,0 +1,877 @@
+SNAP Purchase:
+
+{
+"messageTypeIdentifier": "0200",
+"primaryAccountNumber": "5044760038514788",
+"processingCode": "009800",
+"transactionAmount": "500",
+"transmissionDateTime": "1229082500",
+"traceAuditNumber": "000003",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "1229",
+"expirationDate": "2505",
+"settlementDate": "1229",
+"captureDate": "1229",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311",
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "4788",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB0077654321"
+}
+
+
+SNAP PURCHASE REVERSAL:
+
+{
+"messageTypeIdentifier": "0420",
+"primaryAccountNumber": "5044766007504353",
+"processingCode": "009800",
+"transactionAmount": "500",
+"transmissionDateTime": "1229082500",
+"traceAuditNumber": "000003",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "1229",
+"expirationDate": "2505",
+"settlementDate": "1229",
+"captureDate": "1229",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "4353",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB0077654321",
+"reversalReason": "8017",
+"authIdentificationResponse": "0ABYU5",
+"originalData": "020000000308010825000000000000000012200001",
+"responseCode": "00"
+}
+
+
+
+SNAP RETURN:
+
+
+{
+"messageTypeIdentifier": "0200",
+"primaryAccountNumber": "5044766007504353",
+"processingCode": "200098",
+"transactionAmount": "5000",
+"transmissionDateTime": "1229082500",
+"traceAuditNumber": "000003",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "1229",
+"expirationDate": "2505",
+"settlementDate": "1229",
+"captureDate": "1229",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "4353",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB0077654321"
+}
+
+
+SNAP RETURN REVERSAL:
+
+{
+"messageTypeIdentifier": "0420",
+"primaryAccountNumber": "5044765500000067",
+"processingCode": "200098",
+"transactionAmount": "5000",
+"transmissionDateTime": "0620082500",
+"traceAuditNumber": "000003",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0620",
+"expirationDate": "2505",
+"settlementDate": "0620",
+"captureDate": "0620",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "5067",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB0077654321",
+"reversalReason": "8017",
+"authIdentificationResponse": "0ABYM7",
+"originalData": "020000000305170825000000000000000012200001",
+"responseCode": "00"
+}
+
+
+
+SNAP PURCHASE REVERSAL VOID : 
+
+{
+"messageTypeIdentifier": "0420",
+"primaryAccountNumber": "5044765500000067",
+"processingCode": "009800",
+"transactionAmount": "5000",
+"transmissionDateTime": "0630082500",
+"traceAuditNumber": "000003",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0630",
+"expirationDate": "2108",
+"settlementDate": "0630",
+"captureDate": "0630",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "5067",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB0077654321",
+"reversalReason": "8018",
+"authIdentificationResponse": "0ABYMA",
+"originalData": "020000000305170825000000000000000012200001",
+"responseCode": "00"
+}
+
+
+
+
+
+CASH PURCHASE :
+
+
+{
+"messageTypeIdentifier": "0200",
+"primaryAccountNumber": "5044766012537158",
+"processingCode": "009600",
+"transactionAmount": "500",
+"transmissionDateTime": "1229082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "1229",
+"expirationDate": "2510",
+"settlementDate": "1229",
+"captureDate": "1229",
+"merchantType": "5415", 
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"Schnucks                 ",
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "7158",
+"nationalPOSGeographicCode": "MO33770501    US ",
+"additionalDataAcquirer": "EB007"
+}
+
+
+
+
+CASH PURCHASE REVERSAL:
+
+
+{
+"messageTypeIdentifier": "0420",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "009600",
+"transactionAmount": "10000",
+"transmissionDateTime": "0620082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0620",
+"expirationDate": "2510",
+"settlementDate": "0620",
+"captureDate": "0620",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"Schnucks                 ", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "MO33770501    US ",
+"additionalDataAcquirer": "EB007",
+"reversalReason": "8017",
+"authIdentificationResponse": "0ABYOM",
+"originalData": "020013690906200825001234567890098765432101",
+"responseCode": "00"
+}
+
+
+
+
+CASH PURCHASE REVERSAL VOID:
+
+
+
+{
+"messageTypeIdentifier": "0420",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "009600",
+"transactionAmount": "10000",
+"transmissionDateTime": "0930082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0930",
+"expirationDate": "2510",
+"settlementDate": "0930",
+"captureDate": "0930",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName": "Schnucks                 ", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "MO33770501    US ",
+"additionalDataAcquirer": "EB007",
+"reversalReason": "8018",
+"authIdentificationResponse": "0ABYOO",
+"originalData": "020013690906200825000000000000000012200001",
+"responseCode": "00"
+}
+
+
+POS_WithDrawl:
+
+{
+"messageTypeIdentifier": "0200",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "019600",
+"transactionAmount": "1000",
+"transmissionDateTime": "0620082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0620",
+"expirationDate": "2509",
+"settlementDate": "0620",
+"captureDate": "0620",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB007"
+}
+
+
+
+POS_WithDrawl_Reversal
+
+{
+"messageTypeIdentifier": "0420",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "019600",
+"transactionAmount": "1000",
+"transmissionDateTime": "0620082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0620",
+"expirationDate": "2509",
+"settlementDate": "0620",
+"captureDate": "0620",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB007",
+"reversalReason": "8017",
+"authIdentificationResponse": "0ABYO3",
+"originalData": "020013690905170825000000000000000012200001",
+"responseCode": "00"
+}
+
+
+ATM_Withdrawl
+
+
+{
+"messageTypeIdentifier": "0200",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "012000",
+"transactionAmount": "3000",
+"transmissionDateTime": "0517082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0517",
+"expirationDate": "2509",
+"settlementDate": "0517",
+"captureDate": "0517",
+"merchantType": "5411",
+"POSEntryMode": "025",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000002",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB007"
+}
+
+
+
+ATM_withdrawl_Reversal
+
+
+
+{
+"messageTypeIdentifier": "0420",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "019600",
+"transactionAmount": "3000",
+"transmissionDateTime": "0517082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0517",
+"expirationDate": "2509",
+"settlementDate": "0517",
+"captureDate": "0517",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000002",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB007",
+"reversalReason": "8017",
+"authIdentificationResponse": "0ABYNQ",
+"originalData": "020013690905170825050000000000000012200001",
+"responseCode": "00"
+}
+
+
+ATM_withdrawl_Reversal_Void
+
+
+
+{
+"messageTypeIdentifier": "0420",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "019600",
+"transactionAmount": "3000",
+"transmissionDateTime": "0930082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0930",
+"expirationDate": "2109",
+"settlementDate": "0930",
+"captureDate": "0930",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000002",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB007",
+"reversalReason": "8018",
+"authIdentificationResponse": "0ABYNV",
+"originalData": "020013690905170825050000000000000012200001",
+"responseCode": "00"
+}
+
+
+
+
+Cash_Purchase_with_Cashback
+
+
+
+{
+"messageTypeIdentifier": "0200",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "099600",
+"transactionAmount": "5000",
+"transmissionDateTime": "0620082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0620",
+"expirationDate": "2510",
+"settlementDate": "0620",
+"captureDate": "0620",
+"merchantType": "5411",
+"POSEntryMode": "025",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"Dollar General", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB007",
+"amountsAdditional": "9640840C000000000050"
+}
+
+
+
+
+Cash_Purchase_with_Cashback_Reversal
+
+
+{
+"messageTypeIdentifier": "0420",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "099600",
+"transactionAmount": "5000",
+"transmissionDateTime": "0620082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0620",
+"expirationDate": "2510",
+"settlementDate": "0620",
+"captureDate": "0620",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"Dollar General", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB007",
+"amountsAdditional": "9640840C000000000050",
+"reversalReason": "8017",
+"authIdentificationResponse": "0ABYNJ",
+"originalData": "020013690905170825000000000000000012200001",
+"responseCode": "00"
+}
+
+
+
+Cash_Purchase_with_Cashback_Reversal_Void
+
+
+{
+"messageTypeIdentifier": "0420",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "099600",
+"transactionAmount": "5000",
+"transmissionDateTime": "0930082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0930",
+"expirationDate": "0209",
+"settlementDate": "0930",
+"captureDate": "0930",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"Dollar General",
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB007",
+"amountsAdditional": "9640840C000000000050",
+"reversalReason": "8018",
+"authIdentificationResponse": "0ABYNN",
+"originalData": "020013690905170825000000000000000012200001",
+"responseCode": "00"
+}
+
+
+
+Store&Forward
+
+
+{ 
+"messageTypeIdentifier": "0200",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "009800",
+"transactionAmount": "6000000",
+"transmissionDateTime": "0517082500",
+"traceAuditNumber": "197869",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0517",
+"expirationDate": "2109",
+"settlementDate": "0517",
+"captureDate": "0517",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"track2Data": ";2947448638579253   =491212000000144;",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName": "BROOKSHIRE BROTHER   #311",
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0001110200",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB0077654321SF000"
+}
+
+
+
+
+Store&Forward_Reversal
+
+{ 
+"messageTypeIdentifier": "0420",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "009800",
+"transactionAmount": "6000000",
+"transmissionDateTime": "0517082500",
+"traceAuditNumber": "197869",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0517",
+"expirationDate": "2109",
+"settlementDate": "0517",
+"captureDate": "0517",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"track2Data": ";2947448638579253   =491212000000144;",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName": "BROOKSHIRE BROTHER   #311",
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0001110200",
+"personalIdentificationNumberData": "8317",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB0077654321SF000",
+"reversalReason": "8015",
+"originalData": "020019786905170825001234567890098765432101",
+"authIdentificationResponse": "0ABYO9",
+"responseCode": "00"
+}
+
+
+
+
+Voucher_Purchase_Clear
+
+
+
+{
+"messageTypeIdentifier": "0200",
+"primaryAccountNumber": "5044766007504353",
+"processingCode": "009800",
+"transactionAmount": "1000",
+"transmissionDateTime": "1229082500",
+"traceAuditNumber": "000003",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "1229",
+"expirationDate": "2505",
+"settlementDate": "1229",
+"captureDate": "1229",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName": "BROOKSHIRE BROTHERS   #31",
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "VN00828072023EB0070716508",
+"authIdentificationResponse": "888281"      
+}
+
+
+Voucher_Return_Clear
+
+
+
+{
+"messageTypeIdentifier": "0200",
+"primaryAccountNumber": "5044766007498317",
+"processingCode": "200098",
+"transactionAmount": "1000",
+"transmissionDateTime": "0626082500",
+"traceAuditNumber": "000003",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0626",
+"expirationDate": "2509",
+"settlementDate": "0626",
+"captureDate": "0620",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName": "BROOKSHIRE BROTHERS   #31",
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "VN009260620239EB0077654321",
+"authIdentificationResponse": "386134"
+}
+
+
+Pos_balance_Enquiry
+
+
+{
+"messageTypeIdentifier": "0200",
+"primaryAccountNumber": "5044760038190399",
+"processingCode": "310000",
+"transactionAmount": "00",
+"transmissionDateTime": "0517012100",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "012100",
+"transactionLocalDate": "0517",
+"expirationDate": "2505",
+"settlementDate": "0517",
+"captureDate": "0517",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311",
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000001",
+"personalIdentificationNumberData": "5399",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB0070063010"
+}
+
+
+ATM_balance_inquiry
+
+
+
+{
+"messageTypeIdentifier": "0200",
+"primaryAccountNumber": "5044760038190399",
+"processingCode": "312000",
+"transactionAmount": "00",
+"transmissionDateTime": "0626082500",
+"traceAuditNumber": "136909",
+"transactionLocalTime": "082500",
+"transactionLocalDate": "0626",
+"expirationDate": "2108",
+"settlementDate": "0626",
+"captureDate": "0626",
+"merchantType": "5411",
+"POSEntryMode": "010",
+"processingFee": "00",
+"transactionFee": "00",
+"cardSequenceNumber": "1234",
+"PINCaptureCode": "st",
+"acquiringInstitutionIdentificationCode": "1234567890",
+"forwardingInstitutionIdentificationCode": "9876543211",
+"retrievalReferenceNumber": "123456789012",
+"cardAcceptorTerminalIdentification": "ABCD1234",
+"cardAcceptorIdentificationCode": "USREATILER12345",
+"cardAcceptorNameOrLocation": "420 TERRY AVE N        New Orleans  LAUS705444536",
+"merchantName":"BROOKSHIRE BROTHER   #311", 
+"currencyCode": "5555",
+"nationalPOSConditionCode": "0100000002",
+"personalIdentificationNumberData": "5399",
+"nationalPOSGeographicCode": "LA33770510    US ",
+"additionalDataAcquirer": "EB0077777777"
+}
+
+
+
+
+
+PIN SET:
+
+
+{
+    "newPin": "4788",
+    "cardNumber": "5044760038514788"
+}
+
+
+
+
+.
